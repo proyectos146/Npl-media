@@ -69,7 +69,8 @@ def cta_img():
     t1f, bf = BOLD(56), SEMI(34)
     d0 = ImageDraw.Draw(Image.new('RGB', (1, 1)))
     bw = int(d0.textlength(plan['cta2'], font=bf)) + 2 * 44; bh = 80
-    hgt = pad + big.height + 36 + 64 + 34 + bh + pad
+    extra = 58 if plan.get('cta3') else 0
+    hgt = pad + big.height + 36 + 64 + 34 + bh + extra + pad
     im = Image.new('RGBA', (W, hgt), (0, 0, 0, 0)); d = ImageDraw.Draw(im)
     d.rounded_rectangle((90, 0, W - 90, hgt - 1), radius=40, fill=(18, 40, 28, 238))
     d.rounded_rectangle((90, 0, W - 90, hgt - 1), radius=40, outline=(214, 178, 92, 120), width=2)
@@ -77,6 +78,7 @@ def cta_img():
     d.text((W // 2, y), plan['cta1'], font=t1f, fill=WHITE, anchor='ma'); y += 64 + 34
     d.rounded_rectangle(((W - bw) // 2, y, (W + bw) // 2, y + bh), radius=bh // 2, fill=GOLD)
     d.text((W // 2, y + bh // 2), plan['cta2'], font=bf, fill=GREEN, anchor='mm')
+    if plan.get('cta3'): d.text((W // 2, y + bh + 26), plan['cta3'], font=SEMI(38), fill=WHITE, anchor='ma')
     return im
 CTA = cta_img(); CTA_T = TOTAL - plan['cta_secs']
 

@@ -87,7 +87,7 @@ for i, s in enumerate(slides, 1):
         bt = s['button']; bf = SEMI(32); bw = D0.textlength(bt, font=bf) + 88
         d.rounded_rectangle((68, H - 200, 68 + bw, H - 120), radius=40, fill=GOLD)
         d.text((68 + bw / 2, H - 160), bt, font=bf, fill=GREEN, anchor='mm')
-        d.text((68 + bw + 28, H - 160), plan['handle'], font=SEMI(30), fill=WHITE, anchor='lm')
+        d.text((68 + bw + 28, H - 160), plan.get('phone', plan['handle']), font=SEMI(34), fill=WHITE, anchor='lm')
         shadowed(c, layer, 6, .5)
     else:
         text_block(c, s.get('label'), s['title'], s.get('body'))
