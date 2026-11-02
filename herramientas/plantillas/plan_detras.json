@@ -1,0 +1,122 @@
+{
+ "segments": [
+  {
+   "file": "p1.mp4",
+   "start": 0,
+   "end": 2.0,
+   "speed": 1.0,
+   "trans": "fade"
+  },
+  {
+   "file": "p2.mp4",
+   "start": 0,
+   "end": 3.0,
+   "speed": 1.0,
+   "trans": "fade"
+  },
+  {
+   "file": "p3.mp4",
+   "start": 0,
+   "end": 2.3,
+   "speed": 1.0,
+   "trans": "slideleft"
+  },
+  {
+   "file": "p4.mp4",
+   "start": 0,
+   "end": 2.3,
+   "speed": 1.0,
+   "trans": "zoomin"
+  },
+  {
+   "file": "p5.mp4",
+   "start": 0,
+   "end": 1.9,
+   "speed": 1.0,
+   "trans": "slideleft"
+  },
+  {
+   "file": "p6.mp4",
+   "start": 0,
+   "end": 1.9,
+   "speed": 1.0,
+   "trans": "fade"
+  },
+  {
+   "file": "p7.mp4",
+   "start": 0,
+   "end": 2.4,
+   "speed": 1.0,
+   "trans": "wipeleft"
+  },
+  {
+   "file": "p8.mp4",
+   "start": 0,
+   "end": 2.2,
+   "speed": 1.0,
+   "trans": "zoomin"
+  },
+  {
+   "file": "p9.mp4",
+   "start": 0,
+   "end": 4.2,
+   "speed": 1.0,
+   "trans": "fadewhite"
+  }
+ ],
+ "captions": [
+  {
+   "t0": 0.1,
+   "t1": 1.7,
+   "label": "Antes",
+   "text": "Así nos lo *encontramos*…"
+  },
+  {
+   "t0": 2.65,
+   "t1": 4.4,
+   "label": "Después",
+   "text": "…y así lo *dejamos*"
+  },
+  {
+   "t0": 4.5,
+   "t1": 6.3,
+   "label": "Paso 1",
+   "text": "El punto de *partida*"
+  },
+  {
+   "t0": 6.5,
+   "t1": 8.3,
+   "label": "Paso 2",
+   "text": "Solado junto | a la *piscina*"
+  },
+  {
+   "t0": 8.5,
+   "t1": 11.5,
+   "label": "Paso 3",
+   "text": "Banco de obra | a *medida*"
+  },
+  {
+   "t0": 11.7,
+   "t1": 13.6,
+   "label": "Paso 4",
+   "text": "Césped y | zona *verde*"
+  },
+  {
+   "t0": 13.8,
+   "t1": 15.5,
+   "label": "El detalle",
+   "text": "Jardín *vertical*"
+  },
+  {
+   "t0": 15.7,
+   "t1": 17.1,
+   "label": "Resultado",
+   "text": "Así ha *quedado*"
+  }
+ ],
+ "cap_y": 820,
+ "cta1": "¿Tu jardín es el siguiente?",
+ "cta2": "Pide tu presupuesto",
+ "cta_secs": 2.6,
+ "music": "/tmp/claude-0/-home-claude/b59e9e2e-2903-5d3c-9e5c-a5cfc513d843/scratchpad/out/m_19.8.wav"
+}

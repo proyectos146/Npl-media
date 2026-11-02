@@ -1,0 +1,76 @@
+{
+ "segments": [
+  {
+   "file": "2.MP4",
+   "start": 0.0,
+   "end": 2.6,
+   "speed": 1.0,
+   "trans": "fade"
+  },
+  {
+   "file": "4.MP4",
+   "start": 3.0,
+   "end": 8.0,
+   "speed": 2.0,
+   "trans": "slideleft"
+  },
+  {
+   "file": "2.MP4",
+   "start": 9.0,
+   "end": 12.7,
+   "speed": 1.5,
+   "trans": "zoomin"
+  },
+  {
+   "file": "6.MP4",
+   "start": 0.0,
+   "end": 5.0,
+   "speed": 2.0,
+   "trans": "wipeleft"
+  },
+  {
+   "file": "3.MP4",
+   "start": 3.0,
+   "end": 13.0,
+   "speed": 2.0,
+   "trans": "fadewhite"
+  }
+ ],
+ "captions": [
+  {
+   "t0": 0.1,
+   "t1": 2.35,
+   "label": "El encargo",
+   "text": "Este cliente quería | más *privacidad*"
+  },
+  {
+   "t0": 2.4,
+   "t1": 4.6,
+   "label": "El proceso",
+   "text": "Manos a la *obra*"
+  },
+  {
+   "t0": 4.65,
+   "t1": 6.85,
+   "label": "El material",
+   "text": "Lamas de madera *composite* | color pizarra"
+  },
+  {
+   "t0": 6.9,
+   "t1": 9.0,
+   "label": "El detalle",
+   "text": "Acabado con *textura* | de madera"
+  },
+  {
+   "t0": 9.1,
+   "t1": 11.4,
+   "label": "El resultado",
+   "text": "Más privacidad y | una entrada *renovada*"
+  }
+ ],
+ "cap_y": 840,
+ "cta1": "¿Quieres un cambio así?",
+ "cta2": "Pide tu presupuesto",
+ "cta_secs": 2.4,
+ "music": "/tmp/claude-0/-home-claude/b59e9e2e-2903-5d3c-9e5c-a5cfc513d843/scratchpad/out/m_13.9.wav"
+}

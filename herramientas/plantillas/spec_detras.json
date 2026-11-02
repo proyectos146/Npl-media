@@ -1,0 +1,11 @@
+[
+ {"out": "p1.mp4", "img": "antes_2.jpg", "dur": 2.0, "zoom": [1.0, 1.06], "cy": 0.6},
+ {"out": "p2.mp4", "wipe": true, "a": "antes_2.jpg", "b": "despues_2.jpg", "acy": 0.6, "bcy": 0.45, "dur": 3.0, "hold": 0.1, "wipe_t": 0.9},
+ {"out": "p3.mp4", "img": "antes_1.jpg", "dur": 2.3, "zoom": [1.08, 1.0]},
+ {"out": "p4.mp4", "img": "antes_3.jpg", "dur": 2.3, "zoom": [1.0, 1.1], "cy": 0.45},
+ {"out": "p5.mp4", "img": "antes_4.jpg", "dur": 1.9, "zoom": [1.0, 1.08]},
+ {"out": "p6.mp4", "img": "antes_5.jpg", "dur": 1.9, "zoom": [1.06, 1.0]},
+ {"out": "p7.mp4", "img": "despues_1.jpg", "dur": 2.4, "zoom": [1.0, 1.08]},
+ {"out": "p8.mp4", "img": "despues_4.jpg", "dur": 2.2, "zoom": [1.0, 1.1], "cx": 0.3},
+ {"out": "p9.mp4", "img": "despues_3.jpg", "dur": 4.2, "zoom": [1.1, 1.0], "cy": 0.4}
+]
